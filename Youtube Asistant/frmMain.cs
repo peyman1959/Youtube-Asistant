@@ -54,7 +54,7 @@ namespace Youtube_Asistant
 
         private void Downloader_OnFinished(Database.VideoRow row)
         {
-            
+            MessageBox.Show("ddd");
         }
 
         private void tsStartDownlaod_Click(object sender, EventArgs e)
